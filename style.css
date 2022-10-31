@@ -27,21 +27,6 @@ padding-left: 390px;
 width: 800px;
 }
 
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -60,7 +60,7 @@ width: 800px;
-  
 .frente{
     margin-right: 2%;
     width: 355.9px;
@@ -79,21 +64,6 @@ width: 800px;
     z-index: 1;
     text-align:center;
     border-top: 1px solid #19275c;
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -93,21 +93,18 @@ padding-top: 10px;
-  
 background: #630000;
 background: -webkit-gradient(linear, left top, left bottom, from(#8b0000), to(#630000));
 background: -webkit-linear-gradient(top, #8b0000, #630000);
@@ -115,6 +85,7 @@ text-decoration: none;
 vertical-align:middle;
 padding-top: 10px;
 }
+
 .bolsofrente, .bolso23, .bolso{
     position: absolute;
     visibility: hidden;
@@ -140,21 +111,6 @@ padding-top: 10px;
     height: 360px;
     border-radius:10px ;
     border-width: 2px ;
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -160,7 +157,7 @@ font-size: 20px;
-  
     border-style: solid;
     border-color: #ff3535;
     margin-top: 150px;
@@ -165,6 +121,7 @@ padding-top: 10px;
     text-align: center;
     margin-top: 1%;
 }
+
 .delete{
     display: none;}
 .download{
@@ -180,6 +137,7 @@ padding-top: 10px;
     margin-top: 580px;
     z-index: 1;
 }
+
 .download {
 border-top: 1px solid #19275c;
 background: #630000;
@@ -206,21 +164,6 @@ margin-left: 70px;
 z-index: 1;
 }
 .download:hover , .uploader:hover {
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -254,31 +251,67 @@ background-color: #fff;
-  
 background: #8b0000;
 color: #ccc;
 cursor: pointer;
@@ -228,6 +171,7 @@ cursor: pointer;
 .download:active, .uploader:active {
 background: #1b435e;
 }
+
 .divisao{
     border-bottom: solid 1px;
     border-color:#919191 ;
@@ -305,6 +249,7 @@ background-color: #fff;
 .opcoes input[type=radio]#vista1 + label span {
 background-color: #fff;
 }
+
 .opcoes input[type=radio]:checked + label span img, .optcolors input[type=radio]:checked + label span img {
 opacity: 1;
 }
@@ -337,23 +282,9 @@ background-color: #d10a12;
 .switch, .switch2 {
 visibility: hidden;
 position: absolute;
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -346,7 +379,7 @@ display: flex;
-  
 margin-left: -9999px;
 }
+
 .switch + label, .switch2 + label {
 display: block;
 position: relative;
@@ -361,6 +292,7 @@ cursor: pointer;
 outline: none;
 user-select: none;
 }
+
 .switch--shadow + label, .switch--shadow2 + label{
 padding: 2px;
 width: 50px;
@@ -398,9 +330,11 @@ background-color: #8ce196;
     .switch--shadow2:checked + label:after  {
 transform: translateX(25px);
 }
+
 .switch__container2{
     display: none;
 }
+
 .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
 position: absolute;
 display: flex;
@@ -416,16 +350,6 @@ display: flex;
    z-index: 20;
 }
 .cores h2,.coresb h2, .coresGE h2, .coresGI h2, .coresP h2, .coresVE h2, .coresVD h2, .coresBF h2,.coresBB h2{
-
-    
-        
-          
-    
-
-        
-    
-    @@ -367,7 +400,7 @@ border-bottom:1px solid #919191;
-  
     width: 100%;
     position: absolute;
     display:flex;
@@ -447,21 +371,6 @@ border-bottom:1px solid #919191;
   }
 
   .optcolors form{
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -416,7 +449,6 @@ border-bottom:1px solid #919191;
-  
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
@@ -469,6 +378,7 @@ border-bottom:1px solid #919191;
   .botaoacabamentos, .botaoacabamento, .botaoacabamento label, .botaoacabamento label svg{
     visibility: hidden;
   }
+
   .deletebase {
     display: none;
 }
@@ -481,6 +391,7 @@ border-bottom:1px solid #919191;
     *{
         overflow:hidden;
     }
+
     .social_masculino{ 
         position: absolute;
         padding-left:140px;
@@ -509,26 +420,12 @@ border-bottom:1px solid #919191;
         width: 360px;
     }
     .frente1,.frente2,.frente3,.frente4,.costas1,.costas2,.costas3,svg,.imgbolso, .imgfrente, .imgcostas, .bolso{
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -451,7 +483,7 @@ border-bottom:1px solid #919191;
-  
         position: absolute;
         width: 360px;
         height: 500px;
     }
-   
+
+
     .switch__container2{
         display: flex;
         position: absolute;
@@ -541,7 +438,7 @@ border-bottom:1px solid #919191;
         position: absolute;
         width: 360px !important;
         height: 500px !important;
-        
+
     }
     .canvas-container,canvas, #list{
         position: absolute;
@@ -558,16 +455,6 @@ border-bottom:1px solid #919191;
     }
     .uploader{
         margin-top: 700px;
-
-    
-          
-            
-    
-
-          
-    
-    
-  
         width: 116px;
         height: 24px;
         font-size: 16px;
@@ -582,6 +469,7 @@ border-bottom:1px solid #919191;
             left:320px;
             z-index: 22;
     }
+
     .optcolors{
         margin-top: 18%;
         width: 100%;
@@ -617,6 +505,7 @@ border-bottom:1px solid #919191;
         width: 40px;
         height: 40px;
     }
+
     .acabamentos{
     top:-110px;
     width: 300px;
@@ -639,6 +528,7 @@ border-bottom:1px solid #919191;
         width: 20px;
         height: 20px;
     }
+
    /*------------------------------------------------------------------------------------------------------*/
     .botaocores{
         visibility: visible;
@@ -662,6 +552,7 @@ border-bottom:1px solid #919191;
         width: 40px;
         height: 40px;
     }
+
     .botaocoresbotoes,.botaocoresgola,.botaocorescarcela,.botaocoresvista{
         visibility: hidden;
         position: absolute;
@@ -684,5 +575,6 @@ border-bottom:1px solid #919191;
         width: 40px;
         height: 40px;
     }
-    
+
+
 }
