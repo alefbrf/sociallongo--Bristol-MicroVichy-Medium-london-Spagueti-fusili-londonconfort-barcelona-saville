@@ -23,7 +23,7 @@ height: 100%;
 display: flex;
 vertical-align: baseline;
 padding-top: 100px;
-padding-left: 390px;
+padding-left: 300px;
 width: 800px;
 }
 
@@ -60,7 +60,7 @@ width: 800px;
     width: 150px;
     height: 35px;
     margin-top: 580px;
-    margin-left: 1300px;
+    margin-left: 1140px;
     z-index: 1;
     text-align:center;
     border-top: 1px solid #19275c;
@@ -107,7 +107,7 @@ padding-top: 10px;
 .acabamentos{
     position: absolute;
     background-color: #EFEFEF;
-    width: 300px;
+    width: 240px;
     height: 360px;
     border-radius:10px ;
     border-width: 2px ;
@@ -160,7 +160,7 @@ font-size: 20px;
 font-family: Helvetica, Arial, Sans-Serif;
 text-decoration: none;
 vertical-align: middle;
-margin-left: 70px;
+margin-left: 40px;
 z-index: 1;
 }
 .download:hover , .uploader:hover {
@@ -346,7 +346,7 @@ display: flex;
     border-style: solid;
     border-color: #ff3535;
     margin-top: 150px;
-   left:1220px;
+   left:1060px;
    z-index: 20;
 }
 .cores h2,.coresb h2, .coresGE h2, .coresGI h2, .coresP h2, .coresVE h2, .coresVD h2, .coresBF h2,.coresBB h2{
@@ -367,7 +367,7 @@ border-bottom:1px solid #919191;
 .optcolors{
     margin-top: 12%;
     width: 100%;
-    margin-left: 30px; 
+    margin-left: 15px; 
   }
 
   .optcolors form{
@@ -416,7 +416,6 @@ border-bottom:1px solid #919191;
     }
     .costas1,.costas2,.costas3{
         position: absolute;
-        left:-30px;
         width: 360px;
     }
     .frente1,.frente2,.frente3,.frente4,.costas1,.costas2,.costas3,svg,.imgbolso, .imgfrente, .imgcostas, .bolso{
@@ -451,7 +450,7 @@ border-bottom:1px solid #919191;
         height: 35px;
         font-size: 15px;
         padding: 2px;
-        left:-60px
+        left:-30px
     }
     .uploader{
         margin-top: 700px;
