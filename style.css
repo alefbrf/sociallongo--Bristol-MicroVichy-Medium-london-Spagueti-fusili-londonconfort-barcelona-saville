@@ -413,6 +413,7 @@ border-bottom:1px solid #919191;
     .costas1,.costas2,.costas3{
         position: absolute;
         width: 360px;
+        padding:0;
     }
     .frente1,.frente2,.frente3,.frente4,.costas1,.costas2,.costas3,svg,.imgbolso, .imgfrente, .imgcostas, .bolso{
         position: absolute;
