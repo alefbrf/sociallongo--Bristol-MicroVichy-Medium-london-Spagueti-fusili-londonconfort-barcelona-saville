@@ -23,10 +23,25 @@ height: 100%;
 display: flex;
 vertical-align: baseline;
 padding-top: 100px;
-padding-left: 300px;
+padding-left: 390px;
 width: 800px;
 }
 
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -60,7 +60,7 @@ width: 800px;
+  
 .frente{
     margin-right: 2%;
     width: 355.9px;
@@ -60,10 +75,25 @@ width: 800px;
     width: 150px;
     height: 35px;
     margin-top: 580px;
-    margin-left: 1140px;
+    margin-left: 1300px;
     z-index: 1;
     text-align:center;
     border-top: 1px solid #19275c;
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -93,21 +93,18 @@ padding-top: 10px;
+  
 background: #630000;
 background: -webkit-gradient(linear, left top, left bottom, from(#8b0000), to(#630000));
 background: -webkit-linear-gradient(top, #8b0000, #630000);
@@ -85,7 +115,6 @@ text-decoration: none;
 vertical-align:middle;
 padding-top: 10px;
 }
-
 .bolsofrente, .bolso23, .bolso{
     position: absolute;
     visibility: hidden;
@@ -93,21 +122,39 @@ padding-top: 10px;
 }
 .costas1{
     position: absolute;
+    padding-left: 30px;
 }
 .costas2{
     position: absolute;
+    padding-left: 30px;
 }
 .costas3{
     position: absolute;
+    padding-left: 30px;
     z-index: 10;
 }
 .acabamentos{
     position: absolute;
     background-color: #EFEFEF;
-    width: 240px;
+    width: 300px;
     height: 360px;
     border-radius:10px ;
     border-width: 2px ;
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -160,7 +157,7 @@ font-size: 20px;
+  
     border-style: solid;
     border-color: #ff3535;
     margin-top: 150px;
@@ -118,7 +165,6 @@ padding-top: 10px;
     text-align: center;
     margin-top: 1%;
 }
-
 .delete{
     display: none;}
 .download{
@@ -134,7 +180,6 @@ padding-top: 10px;
     margin-top: 580px;
     z-index: 1;
 }
-
 .download {
 border-top: 1px solid #19275c;
 background: #630000;
@@ -157,10 +202,25 @@ font-size: 20px;
 font-family: Helvetica, Arial, Sans-Serif;
 text-decoration: none;
 vertical-align: middle;
-margin-left: 40px;
+margin-left: 70px;
 z-index: 1;
 }
 .download:hover , .uploader:hover {
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -254,31 +251,67 @@ background-color: #fff;
+  
 background: #8b0000;
 color: #ccc;
 cursor: pointer;
@@ -168,7 +228,6 @@ cursor: pointer;
 .download:active, .uploader:active {
 background: #1b435e;
 }
-
 .divisao{
     border-bottom: solid 1px;
     border-color:#919191 ;
@@ -246,78 +305,55 @@ background-color: #fff;
 .opcoes input[type=radio]#vista1 + label span {
 background-color: #fff;
 }
-
 .opcoes input[type=radio]:checked + label span img, .optcolors input[type=radio]:checked + label span img {
 opacity: 1;
 }
 .optcolors input[type=radio]#whitebase + label span,.optcolors input[type=radio]#whitebase1 + label span,.optcolors input[type=radio]#whitebase2 + label span,.optcolors input[type=radio]#whitebase3 + label span,.optcolors input[type=radio]#whitebase4 + label ,.optcolors input[type=radio]#whitebase5 + label span,.optcolors input[type=radio]#whitebase6 + label span,.optcolors input[type=radio]#whitebase7 + label span,.optcolors input[type=radio]#whitebase8 + label span {
-background-color: #fff;
+background-color: #d4d7e2;
 }
 .optcolors input[type=radio]#blackbase + label span, .optcolors input[type=radio]#blackbase1 + label span, .optcolors input[type=radio]#blackbase2 + label span, .optcolors input[type=radio]#blackbase3 + label span, .optcolors input[type=radio]#blackbase4 + label span, .optcolors input[type=radio]#blackbase5 + label span, .optcolors input[type=radio]#blackbase6 + label span, .optcolors input[type=radio]#blackbase7 + label span, .optcolors input[type=radio]#blackbase8 + label span {
-background-color: #000;
+background-color: #5d93cb;
 }
 .optcolors input[type=radio]#bluebase + label span, .optcolors input[type=radio]#bluebase1 + label span, .optcolors input[type=radio]#bluebase2 + label span, .optcolors input[type=radio]#bluebase3 + label span, .optcolors input[type=radio]#bluebase4 + label span, .optcolors input[type=radio]#bluebase5 + label span, .optcolors input[type=radio]#bluebase6 + label span, .optcolors input[type=radio]#bluebase7 + label span, .optcolors input[type=radio]#bluebase8 + label span {
-background-color: #EDE6CA;
+background-color: #2c65af;
 }
 .optcolors input[type=radio]#redbase + label span,.optcolors input[type=radio]#redbase1 + label span,.optcolors input[type=radio]#redbase2 + label span,.optcolors input[type=radio]#redbase3 + label span,.optcolors input[type=radio]#redbase4 + label span,.optcolors input[type=radio]#redbase5 + label span,.optcolors input[type=radio]#redbase6 + label span,.optcolors input[type=radio]#redbase7 + label span,.optcolors input[type=radio]#redbase8 + label span {
-background-color: #FAECBA;
+background-color: #64aea8;
 }
 .optcolors input[type=radio]#yellowbase + label span, .optcolors input[type=radio]#yellowbase1 + label span, .optcolors input[type=radio]#yellowbase2 + label span, .optcolors input[type=radio]#yellowbase3 + label span, .optcolors input[type=radio]#yellowbase4 + label span, .optcolors input[type=radio]#yellowbase5 + label span, .optcolors input[type=radio]#yellowbase6 + label span, .optcolors input[type=radio]#yellowbase7 + label span, .optcolors input[type=radio]#yellowbase8 + label span {
-background-color: #F6DCCA;
+background-color: #2d4c3f;
 }
 .optcolors input[type=radio]#greenbase + label span,.optcolors input[type=radio]#greenbase1 + label span,.optcolors input[type=radio]#greenbase2 + label span,.optcolors input[type=radio]#greenbase3 + label span,.optcolors input[type=radio]#greenbase4 + label span,.optcolors input[type=radio]#greenbase5 + label span,.optcolors input[type=radio]#greenbase6 + label span,.optcolors input[type=radio]#greenbase7 + label span,.optcolors input[type=radio]#greenbase8 + label span {
-background-color: #A0B8AA;
+background-color: #d10a12;
 }
+
 .optcolors input[type=radio]#base1 + label span,.optcolors input[type=radio]#base11 + label span,.optcolors input[type=radio]#base12 + label span,.optcolors input[type=radio]#base13 + label span,.optcolors input[type=radio]#base14 + label span,.optcolors input[type=radio]#base15 + label span,.optcolors input[type=radio]#base16 + label span,.optcolors input[type=radio]#base17 + label span,.optcolors input[type=radio]#base18 + label span {
-    background-color: #A9DCE7;
+    background-color: #1d3056;
     }
 
 .optcolors input[type=radio]#base2 + label span,.optcolors input[type=radio]#base21 + label span,.optcolors input[type=radio]#base22 + label span,.optcolors input[type=radio]#base23 + label span,.optcolors input[type=radio]#base24 + label span,.optcolors input[type=radio]#base25 + label span,.optcolors input[type=radio]#base26 + label span,.optcolors input[type=radio]#base27 + label span,.optcolors input[type=radio]#base28 + label span {
-    background-color: #5C9FC8;
+    background-color: #000;
     }
-
-.optcolors input[type=radio]#base3 + label span,.optcolors input[type=radio]#base31 + label span,.optcolors input[type=radio]#base32 + label span,.optcolors input[type=radio]#base33 + label span,.optcolors input[type=radio]#base34 + label span,.optcolors input[type=radio]#base35 + label span,.optcolors input[type=radio]#base36 + label span,.optcolors input[type=radio]#base37 + label span,.optcolors input[type=radio]#base38 + label span {
-    background-color: #1659A6;
-    }
-
-.optcolors input[type=radio]#base4 + label span,.optcolors input[type=radio]#base41 + label span,.optcolors input[type=radio]#base42 + label span,.optcolors input[type=radio]#base43 + label span,.optcolors input[type=radio]#base44 + label span,.optcolors input[type=radio]#base45 + label span,.optcolors input[type=radio]#base46 + label span,.optcolors input[type=radio]#base47 + label span,.optcolors input[type=radio]#base48 + label span {
-    background-color: #444D91;
-    }
-
-.optcolors input[type=radio]#base5 + label span,.optcolors input[type=radio]#base51 + label span,.optcolors input[type=radio]#base52 + label span,.optcolors input[type=radio]#base53 + label span,.optcolors input[type=radio]#base54 + label span,.optcolors input[type=radio]#base55 + label span,.optcolors input[type=radio]#base56 + label span,.optcolors input[type=radio]#base57 + label span,.optcolors input[type=radio]#base58 + label span {
-    background-color: #BCA07A;
-    }
-
-.optcolors input[type=radio]#base6 + label span,.optcolors input[type=radio]#base61 + label span,.optcolors input[type=radio]#base62 + label span,.optcolors input[type=radio]#base63 + label span,.optcolors input[type=radio]#base64 + label span,.optcolors input[type=radio]#base65 + label span,.optcolors input[type=radio]#base66 + label span,.optcolors input[type=radio]#base67 + label span,.optcolors input[type=radio]#base68 + label span {
-    background-color: #F04603;
-    }
-
-.optcolors input[type=radio]#base7 + label span,.optcolors input[type=radio]#base71 + label span,.optcolors input[type=radio]#base72 + label span,.optcolors input[type=radio]#base73 + label span,.optcolors input[type=radio]#base74 + label span,.optcolors input[type=radio]#base75 + label span,.optcolors input[type=radio]#base76 + label span,.optcolors input[type=radio]#base77 + label span,.optcolors input[type=radio]#base78 + label span {
-    background-color: #9E0614;
-    }
-
-.optcolors input[type=radio]#base8 + label span,.optcolors input[type=radio]#base81 + label span,.optcolors input[type=radio]#base82 + label span,.optcolors input[type=radio]#base83 + label span,.optcolors input[type=radio]#base84 + label span,.optcolors input[type=radio]#base85 + label span,.optcolors input[type=radio]#base86 + label span,.optcolors input[type=radio]#base87 + label span,.optcolors input[type=radio]#base88 + label span {
-    background-color: #051859;
-    }
-
-.optcolors input[type=radio]#base9 + label span,.optcolors input[type=radio]#base91 + label span,.optcolors input[type=radio]#base92 + label span,.optcolors input[type=radio]#base93 + label span,.optcolors input[type=radio]#base94 + label span,.optcolors input[type=radio]#base95 + label span,.optcolors input[type=radio]#base96 + label span,.optcolors input[type=radio]#base97 + label span,.optcolors input[type=radio]#base98 + label span {
-    background-color: #617077;
-    }
-
-.optcolors input[type=radio]#base10 + label span,.optcolors input[type=radio]#base101 + label span,.optcolors input[type=radio]#base102 + label span,.optcolors input[type=radio]#base103 + label span,.optcolors input[type=radio]#base104 + label span,.optcolors input[type=radio]#base105 + label span,.optcolors input[type=radio]#base106 + label span,.optcolors input[type=radio]#base107 + label span,.optcolors input[type=radio]#base108 + label span {
-    background-color: #026A4A;
-    }
-
-.optcolors input[type=radio]#base110 + label span,.optcolors input[type=radio]#base111 + label span,.optcolors input[type=radio]#base112 + label span,.optcolors input[type=radio]#base113 + label span,.optcolors input[type=radio]#base114 + label span,.optcolors input[type=radio]#base115 + label span,.optcolors input[type=radio]#base116 + label span,.optcolors input[type=radio]#base117 + label span,.optcolors input[type=radio]#base118 + label span {
-    background-color: #4C4243;
-    }
-
 .switch, .switch2 {
 visibility: hidden;
 position: absolute;
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -346,7 +379,7 @@ display: flex;
+  
 margin-left: -9999px;
 }
-
 .switch + label, .switch2 + label {
 display: block;
 position: relative;
@@ -325,7 +361,6 @@ cursor: pointer;
 outline: none;
 user-select: none;
 }
-
 .switch--shadow + label, .switch--shadow2 + label{
 padding: 2px;
 width: 50px;
@@ -363,11 +398,9 @@ background-color: #8ce196;
     .switch--shadow2:checked + label:after  {
 transform: translateX(25px);
 }
-
 .switch__container2{
     display: none;
 }
-
 .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
 position: absolute;
 display: flex;
@@ -379,10 +412,20 @@ display: flex;
     border-style: solid;
     border-color: #ff3535;
     margin-top: 150px;
-   left:1060px;
+   left:1220px;
    z-index: 20;
 }
 .cores h2,.coresb h2, .coresGE h2, .coresGI h2, .coresP h2, .coresVE h2, .coresVD h2, .coresBF h2,.coresBB h2{
+
+    
+        
+          
+    
+
+        
+    
+    @@ -367,7 +400,7 @@ border-bottom:1px solid #919191;
+  
     width: 100%;
     position: absolute;
     display:flex;
@@ -400,10 +443,25 @@ border-bottom:1px solid #919191;
 .optcolors{
     margin-top: 12%;
     width: 100%;
-    margin-left: 15px; 
+    margin-left: 30px; 
   }
 
   .optcolors form{
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -416,7 +449,6 @@ border-bottom:1px solid #919191;
+  
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
@@ -411,7 +469,6 @@ border-bottom:1px solid #919191;
   .botaoacabamentos, .botaoacabamento, .botaoacabamento label, .botaoacabamento label svg{
     visibility: hidden;
   }
-
   .deletebase {
     display: none;
 }
@@ -424,7 +481,6 @@ border-bottom:1px solid #919191;
     *{
         overflow:hidden;
     }
-
     .social_masculino{ 
         position: absolute;
         padding-left:140px;
@@ -449,14 +505,29 @@ border-bottom:1px solid #919191;
     }
     .costas1,.costas2,.costas3{
         position: absolute;
+        left:-30px;
         width: 360px;
     }
     .frente1,.frente2,.frente3,.frente4,.costas1,.costas2,.costas3,svg,.imgbolso, .imgfrente, .imgcostas, .bolso{
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -451,7 +483,7 @@ border-bottom:1px solid #919191;
+  
         position: absolute;
         width: 360px;
         height: 500px;
     }
-
    
     .switch__container2{
         display: flex;
@@ -483,10 +554,20 @@ border-bottom:1px solid #919191;
         height: 35px;
         font-size: 15px;
         padding: 2px;
-        left:-30px
+        left:-60px
     }
     .uploader{
         margin-top: 700px;
+
+    
+          
+            
+    
+
+          
+    
+    
+  
         width: 116px;
         height: 24px;
         font-size: 16px;
@@ -501,7 +582,6 @@ border-bottom:1px solid #919191;
             left:320px;
             z-index: 22;
     }
-
     .optcolors{
         margin-top: 18%;
         width: 100%;
@@ -537,7 +617,6 @@ border-bottom:1px solid #919191;
         width: 40px;
         height: 40px;
     }
-
     .acabamentos{
     top:-110px;
     width: 300px;
@@ -560,7 +639,6 @@ border-bottom:1px solid #919191;
         width: 20px;
         height: 20px;
     }
-
    /*------------------------------------------------------------------------------------------------------*/
     .botaocores{
         visibility: visible;
@@ -584,7 +662,6 @@ border-bottom:1px solid #919191;
         width: 40px;
         height: 40px;
     }
-
     .botaocoresbotoes,.botaocoresgola,.botaocorescarcela,.botaocoresvista{
         visibility: hidden;
         position: absolute;
@@ -607,6 +684,5 @@ border-bottom:1px solid #919191;
         width: 40px;
         height: 40px;
     }
-
     
 }
