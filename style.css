@@ -23,7 +23,7 @@ height: 100%;
 display: flex;
 vertical-align: baseline;
 padding-top: 100px;
-padding-left: 300px;
+padding-left: 280px;
 width: 800px;
 }
 
@@ -34,7 +34,6 @@ width: 800px;
     visibility: visible;
 }
 .costas{
-    margin-left: 2%;
     width: 355.9px;
     height: 500px;
     visibility: visible;
@@ -93,15 +92,12 @@ padding-top: 10px;
 }
 .costas1{
     position: absolute;
-    padding-left: 30px;
 }
 .costas2{
     position: absolute;
-    padding-left: 30px;
 }
 .costas3{
     position: absolute;
-    padding-left: 30px;
     z-index: 10;
 }
 .acabamentos{
